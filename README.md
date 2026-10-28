@@ -9,7 +9,7 @@
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [Overview](#-overview)
 - [System Architecture](#-system-architecture)
@@ -25,7 +25,7 @@
 
 ---
 
-## 🌟 Overview
+## Overview
 
 During viral flash sales and seasonal sales events, standard e-commerce applications experience severe bottlenecks:
 1. **Frontend Click Floods**: Frustrated users repeatedly click the checkout button during latency spikes, triggering duplicate charges and duplicate orders.
@@ -41,7 +41,7 @@ During viral flash sales and seasonal sales events, standard e-commerce applicat
 
 ---
 
-## 🏛️ System Architecture
+## System Architecture
 
 The application is structured into four decoupled layers:
 
@@ -94,7 +94,7 @@ graph TD
 
 ---
 
-## ⚡ High-Concurrency & Flash-Sale Safeguards
+##  High-Concurrency & Flash-Sale Safeguards
 
 ### 1. Frontend Tier: Click-Spam Guard & Idempotency
 - **Immediate Button Disabling**: The submit button is disabled on the first click (`disabled={isSubmitting}`) with visual loading indicators.
@@ -118,15 +118,15 @@ graph TD
 - **Conditional SQL Updates**: Inventory is decremented with strict database-level constraints:
   ```sql
   UPDATE products 
-  SET stock = stock - $1 
-  WHERE id = $2 AND stock >= $1 
+  SET stock = stock - 1 
+  WHERE id = 2 AND stock >= 1 
   RETURNING *;
   ```
 - If remaining stock is less than requested quantity, `rowCount === 0`. The sequential queue worker aborts the transaction, rolls back partial items, and marks the order as `sold_out`. **Overselling is mathematically impossible.**
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Framework**: [React 19](https://react.dev/)
@@ -145,7 +145,7 @@ graph TD
 
 ---
 
-## 🗄️ Database Schema
+## Database Schema
 
 ```mermaid
 erDiagram
@@ -200,7 +200,7 @@ erDiagram
 
 ---
 
-## 🎮 Interactive Concurrency & Bot Simulator
+## Interactive Concurrency & Bot Simulator
 
 ShopEase features a built-in **Live Stress-Testing Console** accessible directly from the top navigation bar via the **"⚡ Flash Sale Console"** button.
 
@@ -212,7 +212,7 @@ ShopEase features a built-in **Live Stress-Testing Console** accessible directly
 
 ---
 
-## 🛍️ Core Application Features
+## Core Application Features
 
 1. **Live Flash Sale Widget**:
    - Flagship product: **"⚡ CyberPulse Neo Pro (Strictly 500 Units)"**.
@@ -237,7 +237,7 @@ ShopEase features a built-in **Live Stress-Testing Console** accessible directly
 
 ---
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18 or higher)
@@ -275,7 +275,7 @@ ShopEase features a built-in **Live Stress-Testing Console** accessible directly
 
 ---
 
-## 🔑 Demo Credentials
+## Demo Credentials
 
 On the **Sign In** page (`/login`), you can use the **1-Click Demo Login** buttons for instant access:
 
@@ -286,7 +286,7 @@ On the **Sign In** page (`/login`), you can use the **1-Click Demo Login** butto
 
 ---
 
-## 🛠️ API Reference
+## API Reference
 
 ### Authentication
 | Method | Endpoint | Description | Auth |
@@ -319,7 +319,7 @@ On the **Sign In** page (`/login`), you can use the **1-Click Demo Login** butto
 
 ---
 
-## 💼 Engineering Highlights for Resumes & Interviews
+## Engineering Highlights for Resumes & Interviews
 
 Here are key technical talking points and architectural patterns demonstrated in this codebase:
 
@@ -334,8 +334,6 @@ Here are key technical talking points and architectural patterns demonstrated in
 5. **Gateway Security & Bot Defense**:
    > *"Added dual-layer gateway protection with sliding-window rate limiting (HTTP 429) and transparent honeypot traps to detect and reject automated scrapers (HTTP 400)."*
 
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+# NOTE
+   **The product listed in the flash sale and in the site is fictional and has been created solely for demonstration and educational purposes.**
+   **The project needs more improvements like adding a payment gateway integration , chat support , product reviews and ratings , wishlist etc.,**
