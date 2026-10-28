@@ -1,0 +1,314 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@shopease.com",
+      "password_hash": "$2b$10$7oqwjKkyFYajL9biwYSky.3.20Wto2zNkvHIATgTKViwJitRyag9y",
+      "role": "admin",
+      "created_at": "2026-10-28T17:00:53.708Z"
+    },
+    {
+      "id": 2,
+      "name": "John Doe",
+      "email": "user@shopease.com",
+      "password_hash": "$2b$10$s9sGNZTmWSE0ML4kJSXrYO0GT.bjarL3MnNHLfxE3Rz2ikoaFZpOe",
+      "role": "user",
+      "created_at": "2026-10-28T17:00:53.712Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 9,
+      "name": "Atomic Habits by James Clear (Hardcover Edition)",
+      "description": "An easy & proven way to build good habits and break bad ones. Over 15 million copies sold worldwide. Transform your daily routines.",
+      "price": 799,
+      "category": "Books",
+      "image_url": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=800&q=80",
+      "stock": 50,
+      "rating": 5,
+      "review_count": 320,
+      "created_at": "2026-10-28T17:00:53.725Z"
+    },
+    {
+      "id": 8,
+      "name": "Pro Series Anti-Burst Yoga & Exercise Ball (65cm)",
+      "description": "Extra thick, non-slip textured PVC surface with quick-inflation foot pump included. Ideal for Pilates, core training, and desk seating.",
+      "price": 1299,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80",
+      "stock": 22,
+      "rating": 4.6,
+      "review_count": 39,
+      "created_at": "2026-10-28T17:00:53.723Z"
+    },
+    {
+      "id": 7,
+      "name": "Ergonomic Memory Foam Lumbar Cushion",
+      "description": "High-density therapeutic memory foam designed to relieve lower back pain and correct posture during long work hours or drives.",
+      "price": 1899,
+      "category": "Home & Living",
+      "image_url": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=800&q=80",
+      "stock": 40,
+      "rating": 4.5,
+      "review_count": 77,
+      "created_at": "2026-10-28T17:00:53.721Z"
+    },
+    {
+      "id": 6,
+      "name": "Minimalist Ceramic Pour-Over Coffee Maker Set",
+      "description": "Artisan handcrafted ceramic dripper with wooden collar and heat-resistant glass carafe. Brew barista-grade pour-over coffee right at home.",
+      "price": 2499,
+      "category": "Home & Living",
+      "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=800&q=80",
+      "stock": 30,
+      "rating": 4.8,
+      "review_count": 53,
+      "created_at": "2026-10-28T17:00:53.720Z"
+    },
+    {
+      "id": 5,
+      "name": "Nike Air Max 270 React Sneakers",
+      "description": "Contemporary athletic shoe combining Nike largest Max Air unit with resilient Nike React foam for all-day comfort and bold streetwear style.",
+      "price": 11495,
+      "category": "Fashion",
+      "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80",
+      "stock": 18,
+      "rating": 4.6,
+      "review_count": 112,
+      "created_at": "2026-10-28T17:00:53.719Z"
+    },
+    {
+      "id": 4,
+      "name": "Classic Vintage Leather Backpack",
+      "description": "Handcrafted from full-grain genuine leather. Padded laptop compartment fits up to 15.6 inch laptops. Perfect for work, travel, and everyday carry.",
+      "price": 4999,
+      "category": "Fashion",
+      "image_url": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=800&q=80",
+      "stock": 25,
+      "rating": 4.7,
+      "review_count": 64,
+      "created_at": "2026-10-28T17:00:53.718Z"
+    },
+    {
+      "id": 3,
+      "name": "Apple Watch Series 9 GPS 45mm",
+      "description": "Advanced health sensors, bright Always-On Retina display, S9 SiP chip, and Double Tap gesture control. Water resistant to 50 meters.",
+      "price": 44900,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+      "stock": 12,
+      "rating": 4.9,
+      "review_count": 98,
+      "created_at": "2026-10-28T17:00:53.717Z"
+    },
+    {
+      "id": 2,
+      "name": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+      "description": "Industry-leading noise cancellation with 2 processors, 8 microphones, and up to 30-hour battery life. Ultra-comfortable lightweight design.",
+      "price": 29990,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+      "stock": 15,
+      "rating": 4.8,
+      "review_count": 142,
+      "created_at": "2026-10-28T17:00:53.716Z"
+    },
+    {
+      "id": 1,
+      "name": "⚡ CyberPulse Neo Pro - Flash Sale Special Edition (Strictly 500 Units)",
+      "description": "Exclusive Flash Sale Drop: Next-gen wearable cyber-deck with neural haptics, quantum OLED display, and titanium casing. Limited to strictly 500 units worldwide!",
+      "price": 1999,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80",
+      "stock": 491,
+      "rating": 5,
+      "review_count": 500,
+      "created_at": "2026-10-28T17:00:53.714Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-MVSD8DTK-3CB1DE",
+      "user_id": 2,
+      "user_email": "user@shopease.com",
+      "customer_name": "Rapid Clicker #1",
+      "shipping_address": "Stress Test Indiranagar",
+      "phone": "9876543210",
+      "total": 1999,
+      "status": "confirmed",
+      "created_at": "2026-10-28T17:05:41.629Z"
+    },
+    {
+      "id": "ORD-MVSD850M-C339DF",
+      "user_id": 2,
+      "user_email": "user@shopease.com",
+      "customer_name": "Buyer Foxtrot",
+      "shipping_address": "Bengaluru",
+      "phone": "9876543210",
+      "total": 1999,
+      "status": "confirmed",
+      "created_at": "2026-10-28T17:05:30.251Z"
+    },
+    {
+      "id": "ORD-MVSD850F-E15F2E",
+      "user_id": 2,
+      "user_email": "user@shopease.com",
+      "customer_name": "Buyer Echo",
+      "shipping_address": "Bengaluru",
+      "phone": "9876543210",
+      "total": 1999,
+      "status": "confirmed",
+      "created_at": "2026-10-28T17:05:30.239Z"
+    },
+    {
+      "id": "ORD-MVSD8500-67024F",
+      "user_id": 2,
+      "user_email": "user@shopease.com",
+      "customer_name": "Buyer Delta",
+      "shipping_address": "Bengaluru",
+      "phone": "9876543210",
+      "total": 1999,
+      "status": "confirmed",
+      "created_at": "2026-10-28T17:05:30.229Z"
+    },
+    {
+      "id": "ORD-MVSD84ZR-61E4A8",
+      "user_id": 2,
+      "user_email": "user@shopease.com",
+      "customer_name": "Buyer Charlie",
+      "shipping_address": "Bengaluru",
+      "phone": "9876543210",
+      "total": 1999,
+      "status": "confirmed",
+      "created_at": "2026-10-28T17:05:30.220Z"
+    },
+    {
+      "id": "ORD-MVSD84Z7-5EB15E",
+      "user_id": 2,
+      "user_email": "user@shopease.com",
+      "customer_name": "Buyer Bravo",
+      "shipping_address": "Bengaluru",
+      "phone": "9876543210",
+      "total": 1999,
+      "status": "confirmed",
+      "created_at": "2026-10-28T17:05:30.168Z"
+    },
+    {
+      "id": "ORD-MVSD84YM-25A7C1",
+      "user_id": 2,
+      "user_email": "user@shopease.com",
+      "customer_name": "Buyer Alpha",
+      "shipping_address": "Bengaluru",
+      "phone": "9876543210",
+      "total": 1999,
+      "status": "confirmed",
+      "created_at": "2026-10-28T17:05:30.148Z"
+    },
+    {
+      "id": "ORD-MVSD6OFF-B0CF02",
+      "user_id": 2,
+      "user_email": "user@shopease.com",
+      "customer_name": "John Doe",
+      "shipping_address": "42, Innovation Boulevard, Indiranagar, Bengaluru - 560038",
+      "phone": "9876543210",
+      "total": 1999,
+      "status": "confirmed",
+      "created_at": "2026-10-28T17:04:22.066Z"
+    },
+    {
+      "id": "ORD-MVSD27ZS-333CC9",
+      "user_id": 1,
+      "user_email": "admin@shopease.com",
+      "customer_name": "Click Spammer",
+      "shipping_address": "MG Road Bengaluru",
+      "phone": "9876543210",
+      "total": 1999,
+      "status": "confirmed",
+      "created_at": "2026-10-28T17:00:54.140Z"
+    }
+  ],
+  "order_items": [
+    {
+      "id": 1,
+      "order_id": "ORD-MVSD27ZS-333CC9",
+      "product_id": 1,
+      "product_name": "⚡ CyberPulse Neo Pro - Flash Sale Special Edition (Strictly 500 Units)",
+      "price": 1999,
+      "qty": 1,
+      "image_url": ""
+    },
+    {
+      "id": 2,
+      "order_id": "ORD-MVSD6OFF-B0CF02",
+      "product_id": 1,
+      "product_name": "⚡ CyberPulse Neo Pro - Flash Sale Special Edition (Strictly 500 Units)",
+      "price": 1999,
+      "qty": 1,
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 3,
+      "order_id": "ORD-MVSD84YM-25A7C1",
+      "product_id": 1,
+      "product_name": "⚡ CyberPulse Neo Pro - Flash Sale Special Edition (Strictly 500 Units)",
+      "price": 1999,
+      "qty": 1,
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 4,
+      "order_id": "ORD-MVSD84Z7-5EB15E",
+      "product_id": 1,
+      "product_name": "⚡ CyberPulse Neo Pro - Flash Sale Special Edition (Strictly 500 Units)",
+      "price": 1999,
+      "qty": 1,
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 5,
+      "order_id": "ORD-MVSD84ZR-61E4A8",
+      "product_id": 1,
+      "product_name": "⚡ CyberPulse Neo Pro - Flash Sale Special Edition (Strictly 500 Units)",
+      "price": 1999,
+      "qty": 1,
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 6,
+      "order_id": "ORD-MVSD8500-67024F",
+      "product_id": 1,
+      "product_name": "⚡ CyberPulse Neo Pro - Flash Sale Special Edition (Strictly 500 Units)",
+      "price": 1999,
+      "qty": 1,
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 7,
+      "order_id": "ORD-MVSD850F-E15F2E",
+      "product_id": 1,
+      "product_name": "⚡ CyberPulse Neo Pro - Flash Sale Special Edition (Strictly 500 Units)",
+      "price": 1999,
+      "qty": 1,
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 8,
+      "order_id": "ORD-MVSD850M-C339DF",
+      "product_id": 1,
+      "product_name": "⚡ CyberPulse Neo Pro - Flash Sale Special Edition (Strictly 500 Units)",
+      "price": 1999,
+      "qty": 1,
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 9,
+      "order_id": "ORD-MVSD8DTK-3CB1DE",
+      "product_id": 1,
+      "product_name": "⚡ CyberPulse Neo Pro - Flash Sale Special Edition (Strictly 500 Units)",
+      "price": 1999,
+      "qty": 1,
+      "image_url": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+}
